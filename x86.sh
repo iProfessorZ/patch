@@ -29,10 +29,10 @@ echo
 sed -i '7a uci set system.@system[0].ttylogin=1' package/lean/default-settings/files/zzz-default-settings
 echo
 TIME y "My Package"
-git clone https://github.com/gd0772/package package/gd772
+git clone https://github.com/iProfessorZ/package package/gd772
 echo
 TIME y "添加 GFW"
-git clone https://github.com/kenzok8/small package/gd772/gfw
+git clone https://github.com/iProfessorZ/small package/gd772/gfw
 rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/luci/applications/luci-app-mosdns
 rm -rf feeds/luci/applications/luci-app-passwall
